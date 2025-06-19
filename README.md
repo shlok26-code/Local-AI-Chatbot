@@ -2,6 +2,9 @@
 
 An Interactive local chatbot using LLMs to provide answers based on local documents.
 
+![Screenshot 2025-06-17 224809](https://github.com/user-attachments/assets/ebe418a3-6ab7-49ab-bcc2-4d4e883f2ab2)
+
+
 ## Overview
 
 This project implements a **Retrieval-Augmented Generation (RAG)** based chatbot that runs locally using a Streamlit interface and allows users to interact with their own documents using state-of-the-art Large Language Models (LLMs). The chatbot intelligently retrieves relevant document chunks and uses LLMs to generate accurate and context-aware responses.
@@ -13,7 +16,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** based chatbot
 * **Retrieval**: Find relevant content from the knowledge base (your documents) using vector similarity.
 * **Augmented Generation**: Feed the retrieved context into a generative LLM to produce meaningful and context-aware answers.
 
-##  Features
+## Features
 
 * Supports **two LLMs**:
 
@@ -90,6 +93,15 @@ All required packages are listed in `requirements.txt`. Key libraries include:
 * `faiss-cpu` *(for FAISS backend)*
 * `gpt4all`
 * `huggingface_hub`
+
+## 🖼️ Screenshots Included
+
+Here are a few screenshots to illustrate the interface and functionality:
+
+![Screenshot 2025-06-17 232831](https://github.com/user-attachments/assets/02f1033e-8482-4a7e-a105-efbb3d4ba49e)
+
+![Screenshot 2025-06-17 225610](https://github.com/user-attachments/assets/6e41a914-9fcc-4b67-95c1-ef8f2c726842)
+
 
 ## ✍️ Author
 
